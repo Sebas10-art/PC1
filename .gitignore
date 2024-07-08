@@ -1,0 +1,8 @@
+/config
+/__pycache__/
+dag/data/
+**/logs/
+plugins/
+.env
+logs/
+logs/scheduler

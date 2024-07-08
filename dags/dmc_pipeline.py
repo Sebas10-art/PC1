@@ -1,6 +1,6 @@
-import airflow
-from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
+#import airflow
+#from airflow import DAG
+#from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
