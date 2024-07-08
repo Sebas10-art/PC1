@@ -635,3 +635,87 @@
 [2024-07-08T00:55:11.051+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:55:11.050+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-07-08T00:55:11.081+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:55:11.081+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
 [2024-07-08T00:55:11.108+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.732 seconds
+[2024-07-08T00:55:41.793+0000] {processor.py:161} INFO - Started process (PID=2418) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:55:41.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T00:55:41.799+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:55:41.798+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:55:43.602+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:55:43.633+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:55:43.632+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T00:55:43.679+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:55:43.679+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T00:55:43.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.941 seconds
+[2024-07-08T00:56:14.590+0000] {processor.py:161} INFO - Started process (PID=2482) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:56:14.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T00:56:14.598+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:56:14.597+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:56:16.550+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:56:16.585+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:56:16.584+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T00:56:16.617+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:56:16.616+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T00:56:16.643+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 2.064 seconds
+[2024-07-08T00:56:47.476+0000] {processor.py:161} INFO - Started process (PID=2546) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:56:47.477+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T00:56:47.479+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:56:47.479+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:56:49.306+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:56:49.334+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:56:49.334+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T00:56:49.366+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:56:49.365+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T00:56:49.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.917 seconds
+[2024-07-08T00:57:19.625+0000] {processor.py:161} INFO - Started process (PID=2610) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:57:19.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T00:57:19.647+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:57:19.645+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:57:21.180+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:57:21.200+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:57:21.199+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T00:57:21.226+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:57:21.226+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T00:57:21.250+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.630 seconds
+[2024-07-08T00:57:51.944+0000] {processor.py:161} INFO - Started process (PID=2674) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:57:51.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T00:57:51.967+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:57:51.966+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:57:54.531+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:57:54.584+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:57:54.583+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T00:57:54.622+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:57:54.622+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T00:57:54.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 2.729 seconds
+[2024-07-08T00:58:25.066+0000] {processor.py:161} INFO - Started process (PID=2738) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:58:25.068+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T00:58:25.072+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:58:25.071+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:58:26.567+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:58:26.587+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:58:26.587+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T00:58:26.613+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:58:26.612+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T00:58:26.639+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.580 seconds
+[2024-07-08T00:58:57.553+0000] {processor.py:161} INFO - Started process (PID=2809) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:58:57.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T00:58:57.557+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:58:57.556+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:58:59.435+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:58:59.460+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:58:59.459+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T00:58:59.490+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:58:59.490+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T00:58:59.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 2.107 seconds
+[2024-07-08T00:59:30.465+0000] {processor.py:161} INFO - Started process (PID=2874) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:59:30.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T00:59:30.472+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:59:30.471+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:59:32.678+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T00:59:32.706+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:59:32.706+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T00:59:32.769+0000] {logging_mixin.py:188} INFO - [2024-07-08T00:59:32.769+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T00:59:32.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 2.338 seconds
+[2024-07-08T01:00:02.873+0000] {processor.py:161} INFO - Started process (PID=2944) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:00:02.875+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:00:02.878+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:00:02.877+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:00:04.786+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:00:04.807+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:00:04.806+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T01:00:04.836+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:00:04.836+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T01:00:04.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.994 seconds
+[2024-07-08T01:00:35.103+0000] {processor.py:161} INFO - Started process (PID=3008) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:00:35.106+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:00:35.110+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:00:35.109+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:00:36.712+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:00:36.769+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:00:36.767+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T01:00:36.819+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:00:36.818+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T01:00:36.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.786 seconds
+[2024-07-08T01:01:07.297+0000] {processor.py:161} INFO - Started process (PID=3072) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:01:07.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:01:07.304+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:01:07.303+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:01:08.873+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:01:08.902+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:01:08.901+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T01:01:08.933+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:01:08.933+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T01:01:08.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.670 seconds
+[2024-07-08T01:01:39.720+0000] {processor.py:161} INFO - Started process (PID=3137) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:01:39.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:01:39.725+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:01:39.724+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:01:41.143+0000] {processor.py:840} INFO - DAG(s) 'ml_workflow_SCASTRO' retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:01:41.163+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:01:41.163+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-07-08T01:01:41.202+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:01:41.202+0000] {dag.py:3834} INFO - Setting next_dagrun for ml_workflow_SCASTRO to 2024-07-07 17:00:00+00:00, run_after=2024-07-08 17:00:00+00:00
+[2024-07-08T01:01:41.230+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.515 seconds
