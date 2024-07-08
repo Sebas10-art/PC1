@@ -25,12 +25,12 @@ default_args = {
     'retry_delay': timedelta(minutes=5),
 }
 
-dag = DAG(
-    'ml_workflow_SCASTRO',
-    default_args=default_args,
-    description='A simple ML pipeline',
-    schedule_interval='0 17 * * *',
-)
+#dag = DAG(
+    #'ml_workflow_SCASTRO',
+    #default_args=default_args,
+    #description='A simple ML pipeline',
+    #schedule_interval='0 17 * * *',
+#)
 
 def load_data():
  df = pd.read_csv('train.csv',sep=",")
@@ -57,22 +57,22 @@ def evaluate_model(ti):
     return accuracy
     
 
-GetDataKaggle = PythonOperator(
-    task_id='GetDataKaggle',
-    python_callable=load_data,
-    dag=dag,
-)
+#GetDataKaggle = PythonOperator(
+    #task_id='GetDataKaggle',
+    #python_callable=load_data,
+    #dag=dag,
+#)
 
-AutoML_PyCaret = PythonOperator(
-    task_id='AutoML_PyCaret',
-    python_callable=preprocess_data,
-    dag=dag,
-)
+#AutoML_PyCaret = PythonOperator(
+    #task_id='AutoML_PyCaret',
+    #python_callable=preprocess_data,
+    #dag=dag,
+#)
 
-SubmitKaggle = PythonOperator(
-    task_id='SubmitKaggle',
-    python_callable=evaluate_model,
-    dag=dag,
-)
+#SubmitKaggle = PythonOperator(
+    #task_id='SubmitKaggle',
+    #python_callable=evaluate_model,
+    #dag=dag,
+#)
 
-GetDataKaggle >> AutoML_PyCaret >> SubmitKaggle
+#GetDataKaggle >> AutoML_PyCaret >> SubmitKaggle
