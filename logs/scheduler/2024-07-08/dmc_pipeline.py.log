@@ -1167,3 +1167,115 @@ Traceback (most recent call last):
 NameError: name 'DAG' is not defined
 [2024-07-08T01:23:14.120+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dmc_pipeline.py
 [2024-07-08T01:23:14.141+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.002 seconds
+[2024-07-08T01:23:44.732+0000] {processor.py:161} INFO - Started process (PID=5903) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:23:44.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:23:44.735+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:23:44.734+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:23:45.619+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:23:45.614+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dmc_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dmc_pipeline.py", line 28, in <module>
+    dag = DAG(
+NameError: name 'DAG' is not defined
+[2024-07-08T01:23:45.621+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:23:45.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 0.908 seconds
+[2024-07-08T01:24:16.284+0000] {processor.py:161} INFO - Started process (PID=5969) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:24:16.287+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:24:16.288+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:24:16.288+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:24:17.886+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:24:17.881+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dmc_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dmc_pipeline.py", line 28, in <module>
+    dag = DAG(
+NameError: name 'DAG' is not defined
+[2024-07-08T01:24:17.888+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:24:17.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.632 seconds
+[2024-07-08T01:24:48.135+0000] {processor.py:161} INFO - Started process (PID=6037) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:24:48.136+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:24:48.137+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:24:48.136+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:24:49.719+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:24:49.714+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dmc_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dmc_pipeline.py", line 28, in <module>
+    dag = DAG(
+NameError: name 'DAG' is not defined
+[2024-07-08T01:24:49.721+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:24:49.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.618 seconds
+[2024-07-08T01:25:20.237+0000] {processor.py:161} INFO - Started process (PID=6104) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:25:20.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:25:20.241+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:25:20.240+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:25:21.402+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:25:21.395+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dmc_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dmc_pipeline.py", line 28, in <module>
+    dag = DAG(
+NameError: name 'DAG' is not defined
+[2024-07-08T01:25:21.404+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:25:21.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.199 seconds
+[2024-07-08T01:25:52.156+0000] {processor.py:161} INFO - Started process (PID=6168) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:25:52.158+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:25:52.160+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:25:52.159+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:25:53.625+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:25:53.620+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dmc_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dmc_pipeline.py", line 28, in <module>
+    dag = DAG(
+NameError: name 'DAG' is not defined
+[2024-07-08T01:25:53.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:25:53.646+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.494 seconds
+[2024-07-08T01:26:23.823+0000] {processor.py:161} INFO - Started process (PID=6234) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:26:23.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:26:23.826+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:26:23.826+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:26:25.214+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:26:25.208+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dmc_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dmc_pipeline.py", line 28, in <module>
+    dag = DAG(
+NameError: name 'DAG' is not defined
+[2024-07-08T01:26:25.215+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:26:25.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.415 seconds
+[2024-07-08T01:26:56.191+0000] {processor.py:161} INFO - Started process (PID=6300) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:26:56.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:26:56.197+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:26:56.196+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:26:59.245+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:26:59.240+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dmc_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dmc_pipeline.py", line 28, in <module>
+    dag = DAG(
+NameError: name 'DAG' is not defined
+[2024-07-08T01:26:59.247+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:26:59.265+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 3.084 seconds
+[2024-07-08T01:27:30.208+0000] {processor.py:161} INFO - Started process (PID=6370) to work on /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:27:30.210+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dmc_pipeline.py for tasks to queue
+[2024-07-08T01:27:30.211+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:27:30.211+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:27:31.763+0000] {logging_mixin.py:188} INFO - [2024-07-08T01:27:31.757+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dmc_pipeline.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dmc_pipeline.py", line 28, in <module>
+    dag = DAG(
+NameError: name 'DAG' is not defined
+[2024-07-08T01:27:31.766+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dmc_pipeline.py
+[2024-07-08T01:27:31.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dmc_pipeline.py took 1.595 seconds
